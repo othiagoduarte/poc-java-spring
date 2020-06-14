@@ -2,7 +2,7 @@
 
 Esta poc contempla os seguintes conceitos/funcionalidades: 
 
-- Gradle Mult-Projects (https://docs.gradle.org/current/userguide/multi_project_builds.html)
+- Gradle Mult-Projects (https://docs.gradle.org/current/userguide/multi_project_builds.html, https://spring.io/guides/gs/multi-module/)
 - Java 11
 - Lombok (https://projectlombok.org/setup/gradle)
 - Spring MVC (https://spring.io/guides/gs/serving-web-content/, https://spring.io/guides/gs/rest-service/)
