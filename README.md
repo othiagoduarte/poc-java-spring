@@ -1,6 +1,6 @@
 ## Poc Spring Java
 
-Esta poc contém exemplos das seguintes funcionalidades: 
+Esta poc contempla os seguintes conceitos/funcionalidades: 
 
 - Gradle Mult-Projects (https://docs.gradle.org/current/userguide/multi_project_builds.html)
 - Java 11
