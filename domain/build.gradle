@@ -1,0 +1,4 @@
+dependencies {
+    compile project(":integrations")
+    compile project(":producers")
+}
