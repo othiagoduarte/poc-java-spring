@@ -4,6 +4,7 @@ Esta poc contempla os seguintes conceitos/funcionalidades:
 
 - Gradle Mult-Projects (https://docs.gradle.org/current/userguide/multi_project_builds.html)
 - Java 11
+- Lombok (https://projectlombok.org/setup/gradle)
 - Spring MVC (https://spring.io/guides/gs/serving-web-content/)
 - Spring Consuming Rest (https://spring.io/guides/gs/consuming-rest/)
 - Spring Consuming SOAP (https://spring.io/guides/gs/consuming-web-service/)
