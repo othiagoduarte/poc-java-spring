@@ -1,4 +1,4 @@
-## Poc Spring Java
+## Poc Spring Framework
 
 Esta poc contempla os seguintes conceitos/funcionalidades: 
 
