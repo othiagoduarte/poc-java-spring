@@ -5,8 +5,8 @@ import com.othiagoduarte.producers.kafka.todo.TodoProducers;
 
 public class TodoService {
 
-    private TodoRepository repository = new TodoRepository();
-    private TodoProducers producersKafka = new TodoProducers();
+    public TodoRepository repository = new TodoRepository();
+    public TodoProducers producersKafka = new TodoProducers();
     public TodoService() {
         System.out.print("TodoService");
     }

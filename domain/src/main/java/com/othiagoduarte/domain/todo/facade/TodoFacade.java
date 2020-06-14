@@ -4,7 +4,7 @@ import com.othiagoduarte.domain.todo.service.TodoService;
 
 public class TodoFacade {
 
-    private TodoService todoService = new TodoService();
+    public TodoService todoService = new TodoService();
     public TodoFacade(){
         System.out.print("TodoFacade");
     }
