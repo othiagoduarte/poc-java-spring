@@ -1,8 +1,2 @@
 rootProject.name = 'poc-spring-java'
-include 'producers'
-include 'integrations'
-include 'domain'
-include 'controllers'
-include 'consumers'
-
-
+include 'producers' , 'integrations' , 'domain', 'controllers', 'consumers'
