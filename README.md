@@ -7,6 +7,7 @@ Esta poc contempla os seguintes conceitos/funcionalidades:
 - Spring MVC (https://spring.io/guides/gs/serving-web-content/)
 - Spring Consuming Rest (https://spring.io/guides/gs/consuming-rest/)
 - Spring Consuming SOAP (https://spring.io/guides/gs/consuming-web-service/)
+- Database H2 (https://docs.spring.io/spring-boot/docs/2.1.13.RELEASE/reference/html/boot-features-sql.html)
 - Spring JPA (https://spring.io/guides/gs/accessing-data-jpa/)
 - Spring Security (https://spring.io/guides/gs/securing-web/)
 - Spring Kafka (https://docs.spring.io/spring-kafka/reference/html/)
