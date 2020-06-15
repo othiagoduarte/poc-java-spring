@@ -1,4 +1,4 @@
-## Poc Spring Framework
+## Poc Spring Monolito
 
 Esta poc contempla os seguintes conceitos/funcionalidades: 
 
