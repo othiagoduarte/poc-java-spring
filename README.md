@@ -15,5 +15,6 @@ Esta poc contempla os seguintes conceitos/funcionalidades:
 - Spring Docker Compose (https://spring.io/guides/gs/spring-boot-docker/)
 - Spring Cloud Config (https://spring.io/guides/gs/centralized-configuration/)
 - Spring Circle CI (https://github.com/CircleCI-Public/circleci-demo-java-spring)
+- Spring Schedule (https://docs.spring.io/spring/docs/3.2.x/spring-framework-reference/html/scheduling.html)
 
 
