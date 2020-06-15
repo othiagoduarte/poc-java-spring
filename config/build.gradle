@@ -1,4 +1,0 @@
-dependencies {
-    compile project(":controllers")
-    implementation ('org.springframework.boot:spring-boot-starter-web')
-}

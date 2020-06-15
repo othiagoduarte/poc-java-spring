@@ -4,5 +4,3 @@ include 'domain'
 include 'producers'
 include 'integrations'
 include 'consumers'
-include 'config'
-
