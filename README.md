@@ -1,6 +1,6 @@
-## Poc Spring Monolito
+## Monolithic Spring Boot
 
-Esta poc contempla os seguintes conceitos/funcionalidades: 
+Esta poc contempla varios recusros do Spring Framework 
 
 - Gradle Mult-Projects (https://docs.gradle.org/current/userguide/multi_project_builds.html, https://spring.io/guides/gs/multi-module/)
 - Java 11
