@@ -4,3 +4,6 @@ include 'domain'
 include 'producers'
 include 'integrations'
 include 'consumers'
+include 'schcedules'
+include 'schedules'
+

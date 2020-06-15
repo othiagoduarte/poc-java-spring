@@ -9,12 +9,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/config" />
             <option value="$PROJECT_DIR$/consumers" />
             <option value="$PROJECT_DIR$/controllers" />
             <option value="$PROJECT_DIR$/domain" />
             <option value="$PROJECT_DIR$/integrations" />
             <option value="$PROJECT_DIR$/producers" />
+            <option value="$PROJECT_DIR$/schcedules" />
+            <option value="$PROJECT_DIR$/schedules" />
           </set>
         </option>
         <option name="useQualifiedModuleNames" value="true" />

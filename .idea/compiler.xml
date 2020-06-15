@@ -7,19 +7,21 @@
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.12/48e4e5d60309ebd833bc528dcf77668eab3cd72c/lombok-1.18.12.jar" />
         </processorPath>
-        <module name="poc-spring-java.config.main" />
+        <module name="poc-spring-java.domain.test" />
         <module name="poc-spring-java.controllers.test" />
         <module name="poc-spring-java.consumers.test" />
+        <module name="poc-spring-java.schcedules.test" />
         <module name="poc-spring-java.integrations.test" />
-        <module name="poc-spring-java.config.test" />
         <module name="poc-spring-java.domain.main" />
         <module name="poc-spring-java.main" />
         <module name="poc-spring-java.producers.test" />
-        <module name="poc-spring-java.producers.main" />
+        <module name="poc-spring-java.schedules.main" />
         <module name="poc-spring-java.integrations.main" />
-        <module name="poc-spring-java.domain.test" />
+        <module name="poc-spring-java.producers.main" />
         <module name="poc-spring-java.test" />
+        <module name="poc-spring-java.schedules.test" />
         <module name="poc-spring-java.consumers.main" />
+        <module name="poc-spring-java.schcedules.main" />
         <module name="poc-spring-java.controllers.main" />
       </profile>
     </annotationProcessing>

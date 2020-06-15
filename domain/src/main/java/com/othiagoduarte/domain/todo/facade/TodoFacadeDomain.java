@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @AllArgsConstructor
 @Component
-public class TodoFacade {
+public class TodoFacadeDomain {
     private TodoService todoService;
 
     public void save() {
