@@ -1,6 +1,22 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:2.1.6.RELEASE")
+    }
+}
+
 plugins {
     id 'java'
+    id "application"
+    id 'org.springframework.boot' version '2.2.2.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+
 }
+
+mainClassName = 'com.othiagoduarte.main.Application'
+
 
 group 'com.othiagoduarte'
 version '1.0-SNAPSHOT'
@@ -8,17 +24,17 @@ version '1.0-SNAPSHOT'
 sourceCompatibility = JavaVersion.VERSION_11
 targetCompatibility = JavaVersion.VERSION_11
 
-repositories {
-    mavenCentral()
-}
+
 
 dependencies {
     compile project(":controllers")
+//    implementation project(":controllers")
 }
 
 allprojects {
 
     apply plugin: 'java'
+    apply plugin: 'io.spring.dependency-management'
 
     group 'com.othiagoduarte'
     version '1.0-SNAPSHOT'
@@ -26,15 +42,40 @@ allprojects {
     sourceCompatibility = JavaVersion.VERSION_11
     targetCompatibility = JavaVersion.VERSION_11
 
+//    configurations {
+//        developmentOnly
+//        runtimeClasspath {
+//            extendsFrom developmentOnly
+//        }
+//    }
+
     repositories {
         mavenCentral()
     }
 
+    dependencyManagement {
+        imports {
+            mavenBom 'org.springframework.boot:spring-boot-dependencies:2.1.4.RELEASE'
+            mavenBom 'org.springframework.cloud:spring-cloud-dependencies:Greenwich.SR5'
+            mavenBom "de.codecentric:spring-boot-admin-dependencies:2.1.5"
+        }
+    }
+
     dependencies {
+        implementation 'org.springframework.boot:spring-boot-starter'
+        implementation 'org.springframework.boot:spring-boot-starter-actuator'
+        implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+        implementation 'org.springframework.boot:spring-boot-starter-web'
+
         compileOnly 'org.projectlombok:lombok:1.18.12'
         annotationProcessor 'org.projectlombok:lombok:1.18.12'
+
         testCompileOnly 'org.projectlombok:lombok:1.18.12'
         testAnnotationProcessor 'org.projectlombok:lombok:1.18.12'
         testCompile group: 'junit', name: 'junit', version: '4.12'
+//        developmentOnly 'org.springframework.boot:spring-boot-devtools'
+        testImplementation('org.springframework.boot:spring-boot-starter-test') {
+            exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+        }
     }
 }

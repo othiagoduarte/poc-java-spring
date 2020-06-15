@@ -1,11 +1,15 @@
 package com.othiagoduarte.domain.todo.facade;
 
 import com.othiagoduarte.domain.todo.service.TodoService;
+import lombok.AllArgsConstructor;
+import org.springframework.stereotype.Component;
 
+@AllArgsConstructor
+@Component
 public class TodoFacade {
+    private TodoService todoService;
 
-    public TodoService todoService = new TodoService();
-    public TodoFacade(){
-        System.out.print("TodoFacade");
+    public void save() {
+        todoService.save();
     }
 }
