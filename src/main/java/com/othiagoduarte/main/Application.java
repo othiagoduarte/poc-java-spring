@@ -9,9 +9,6 @@ import org.springframework.context.annotation.ComponentScan;
 public class Application {
 
     public static void main(String[] args) {
-        var app = SpringApplication.run(Application.class, args);
-        for (String name :  app.getBeanDefinitionNames()) {
-            System.out.println(name);
-        }
+        SpringApplication.run(Application.class, args);
     }
 }
