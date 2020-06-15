@@ -43,3 +43,22 @@ F
 producers/build.gradle,8/b/8b1aa082cc79a057ac60298ccc21d3abcc3f2e10
 <
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+
+Qproducers/src/main/java/com/othiagoduarte/producers/kafka/todo/TodoProducers.java,a/0/a0fb4ba0a54e9832c8c598355509ccd0243a90a3
+ƒ
+Sdomain/src/main/java/com/othiagoduarte/domain/client/model/output/ClientOutput.java,f/5/f5df43ec88dcb44128606c0520eb356e642d6192
+ƒ
+Sdomain/src/main/java/com/othiagoduarte/domain/client/model/entity/ClientEntity.java,6/9/6968f4ca78dea6b6ec0ac85b6b7752a0e601b0b2
+
+Qdomain/src/main/java/com/othiagoduarte/domain/client/model/input/ClientInput.java,f/0/f066d991b637a6324d704abfde1facd441e356a0
+Š
+Zdomain/src/main/java/com/othiagoduarte/domain/client/model/mapper/client/ClientMapper.java,9/5/95887ea447a31454462c804c561eac883471e895
+i
+9src/main/java/com/othiagoduarte/main/TodoControllers.java,3/b/3bd5a4fd32761c9f93caf76b1ecba8c5e03d00b4
+C
+config/build.gradle,3/8/382d9613001039be2024e68d2d8a2d2dc282822f
+n
+>config/src/main/java/com/othiagoduarte/config/Application.java,c/e/ce13fcdb0196b370f13f4b5f61c4f037eb949dc5
